@@ -1,0 +1,92 @@
+.main-header {
+  height: 4.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  position: fixed;
+  top: 0;
+  left: 13%;
+}
+
+.container {
+  width: 90%;
+  height: auto;
+  margin: 0px auto;
+}
+
+.bg {
+  background-image: url(../assessts/banner-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 90vh;
+}
+
+.header-logo {
+  width: 25%;
+  height: 100%;
+}
+
+.header-logo img {
+  width: 85%;
+  height: 100%;
+}
+
+.main-navigation {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.main-list {
+  list-style: none;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.main-list li {
+  padding: 0.4rem;
+}
+
+.main-list li a {
+  font-size: 20px;
+  color: #fff;
+  padding: 0.2rem;
+}
+
+.nav-btns {
+  width: 35%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.login,
+.register {
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  cursor: pointer;
+  font-size: 17px;
+  color: #fff;
+}
+
+.login {
+  background: transparent;
+  border: none;
+}
+
+.login:hover {
+  background: linear-gradient(-94deg, #e74179 0%, #fe7a6a 84%);
+  border: 1px solid orange;
+}
+
+.register {
+  border: 1px solid orange;
+  background: linear-gradient(-94deg, #e74179 0%, #fe7a6a 84%);
+}

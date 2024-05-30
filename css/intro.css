@@ -1,0 +1,95 @@
+.intro-head {
+  padding-top: 10rem;
+}
+.intro-head h1 {
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+}
+
+.inner-head {
+  font-size: 5rem;
+  letter-spacing: 0.3rem;
+  word-spacing: 1rem;
+}
+
+.intro-head p {
+  text-align: center;
+  color: #fff;
+  padding: 1.4rem;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.form-container {
+  padding: 4rem 0rem;
+  margin-top: -8rem;
+  border-radius: 2rem;
+  background-color: #fff;
+}
+
+.form-container h2 {
+  text-align: center;
+  color: #414785;
+  text-transform: capitalize;
+  letter-spacing: 0.3rem;
+  padding: 1rem;
+}
+
+.banner-form {
+  width: 56%;
+  height: auto;
+  margin: 10px auto;
+}
+
+.flexed-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.form-input input {
+  padding: 0.4rem 6rem;
+  border-radius: 2rem;
+  border: 1px solid #414785;
+}
+
+.form-input input::placeholder {
+  font-size: 12px;
+  font-style: italic;
+}
+
+.form-btn button {
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  cursor: pointer;
+  font-size: 17px;
+  color: #fff;
+  background-color: #414785;
+  border: 1px solid #414785;
+}
+
+.short-link {
+  color: #ffff00;
+  font-size: 1.7rem;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.links-text {
+  color: #414785;
+  display: block;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.add-ons {
+  padding: 2rem 0rem;
+}
+
+.incoming-links {
+  font-size: 3rem;
+  color: #414785;
+}
